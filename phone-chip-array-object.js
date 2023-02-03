@@ -21,4 +21,28 @@ function phoneItem(phones){
     return phonePrice
 }
 const myPhone = phoneItem(phones);
-console.log(myPhone)
+console.log(myPhone);
+
+
+const books = [
+    {name : "comminication Hacks", pages: 300, price : 200, writer :"Ayman Sadik" },
+    {name : "students Hacks", pages: 400, price : 200, writer :"Siddikur" },
+    {name : "enlish speaking", pages: 350, price : 200, writer :"Munjerin" },
+    {name : "bela furabar age", pages: 200, price : 500, writer :"Arif ajad" },
+]
+
+function allBook(books){
+    let favoriteBook = books[0]
+    for(let i = 0; i < books.length ; i++){
+        const book = books[i]
+        if(book.writer === "Arif ajad"){
+            favoriteBook = book;
+        }
+
+    }
+    return favoriteBook
+}
+
+const myBook = allBook(books);
+console.log(myBook);
+
