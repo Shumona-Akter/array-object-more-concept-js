@@ -8,4 +8,4 @@ console.log(array)
 // array splice() using delete and insert element and its change main array
 const arraySplice = array.splice(2,2);
 console.log(arraySplice);
-console.log(array)
+console.log(array);

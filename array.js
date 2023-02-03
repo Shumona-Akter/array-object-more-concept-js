@@ -41,4 +41,5 @@ else{
 }
 
 const concatArray = arrayIs.concat(divisibleFiveArray)
-console.log(concatArray)
+console.log(concatArray);
+
